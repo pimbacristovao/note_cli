@@ -1,0 +1,21 @@
+{
+  "name": "cli_project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node --trace-warnings node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "open": "^11.0.4",
+    "yargs": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
